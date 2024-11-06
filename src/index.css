@@ -1,0 +1,36 @@
+.menu {
+    color:red;
+    font-size: large;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    justify-content: center;
+    gap: 30px;
+};
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: bisque;
+}
+
+button {
+    padding: 20px;
+    background-color: #F4D35E;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #E6C04E;
+  }
